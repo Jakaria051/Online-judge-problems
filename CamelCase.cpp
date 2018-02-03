@@ -26,3 +26,10 @@ int main()
     cout<<count<<endl;
 
 }
+
+/*
+input:
+saveChangesInTheEditor
+output :
+5
+*/
