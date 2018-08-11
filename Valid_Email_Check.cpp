@@ -30,54 +30,11 @@ int main()
 
     if(ev == 1 && ei != 1 && evv ==1)
     {
-        cout<<"Valid"<<endl;
+        cout<<"Valid Email"<<endl;
     }
     else
-      cout<<"InValid"<<endl;
+      cout<<"InValid Email"<<endl;
 
 }
 
 
-/*#include<bits/stdc++.h>
-using namespace std;
-int ev =0,ei=0,At=0;
-
-int operation(string str)
-{
-    for(int i=0;i<str.length();i++)
-    {
-    if(!isdigit(str[0]) )
-    {
-        if((str[i] == '@') and (str[i] == '.'))
-        {
-            ev=1;
-        }
-        else
-            ev = 0;
-    }
-
-    else if(str[i] == '_' || str[i] == '$' || str[i] =='&' || str[i] == '!' || str[i] == '#' || str[i] == '-' || str[i] ==  '+')
-    {
-       ei=1;
-    }
-
-    }
-}
-
-int main()
-{
-    string str;
-    cin>>str;
-
-    operation(str);
-
-    if(ev == 1 && ei != 1)
-    {
-        cout<<"Valid"<<endl;
-    }
-    else
-      cout<<"InValid"<<endl;
-
-}
-
-*/
